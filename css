@@ -1,0 +1,194 @@
+body{
+    padding: 0;
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+   
+}
+header{
+    justify-content: center;
+}
+h1{ text-align: center;
+    font-family: "Playfair", serif;
+    
+    font-weight: 1200;
+    font-size: 150px;
+    color: gray;
+
+}
+h2{
+    color: rgba(40, 38, 38, 0.747);
+    text-align: center;
+}
+
+
+
+
+.secciondos{
+    display:flex;
+    padding:20px;
+    flex-direction: column;
+    align-items: center;
+}
+.secciondos p{
+    background-color:rgb(228, 198, 205) ;
+    font-weight: 600;
+}
+section{display: flex;
+padding: 20px;
+flex-direction: row;
+text-align: center;
+align-items: center;
+}
+
+article img{
+  padding: 20px;
+    width: 50vw;
+    margin-top: 30px;
+}
+.nosotros{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(234, 233, 233, 0.5);
+    
+    padding: 30px;
+    margin-top: 30px;
+    border-color: black;
+    border-style:double;
+    border-width: 0.1em;
+    font-size: xx-large;
+    border-color:rgb(228, 198, 205);
+    text-align: center;
+
+}
+.nosotros p{
+    font-style: initial;
+    
+}
+
+nav{
+  
+   padding:0px;
+    background-color: rgba(227, 235, 232, 0.711);
+    border: 30px;
+    
+    
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 30px;
+    size: 200px;
+    
+    
+    text-align: center;
+   
+   
+}
+.menu{
+   
+    font-size:xx-large;
+    background-color: rgba(237, 235, 240, 0.927);
+    
+
+   
+    
+    
+}
+.menu a{
+    justify-content: center;
+    size: 100px;
+    color: rgba(16, 17, 17, 0.815);
+    text-decoration-line: none;
+}
+
+.redes{
+    position: fixed;
+    right:30px;
+    bottom:50px;
+    padding:5px;
+    z-index: 20;
+    justify-items: center;
+   
+    
+}
+.redes i{
+    padding: 5px;
+}
+.productos-container{
+background-color: rgb(251, 252, 252);
+justify-content: center;
+gap: 20px;
+display: flex;
+flex-wrap: wrap;
+margin-top: 60px;
+}
+.producto img{
+  
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+h3{
+    text-align: center;
+    color: gray;
+    font-size: large;
+    
+}
+
+    
+    
+
+footer div i{
+   
+    justify-content: center;
+}
+
+@media (max-width:600px){
+    header{
+        margin: 30px;
+    }
+    nav{width: 80vw;
+        align-items: center;
+        
+       
+    }
+    nav ul{
+        justify-content: left;
+        align-items: center;
+        flex-direction: column;
+        gap:10px;
+    }
+    section{
+        align-items: center;
+        flex-direction: column;
+    }
+    .nosotros{
+        width: 80vw;
+    }
+   article img{
+    width: 80vw;
+   }
+   h1{
+    font-size:xx-large;
+   }
+
+
+}
